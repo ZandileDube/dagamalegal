@@ -1,0 +1,39 @@
+.Partners {
+    margin: auto;
+    padding: 1rem 1rem 0 1rem;
+    width: 100%;
+    height: 70vh;
+    
+    }
+    
+    .Partners .container {
+    width: 1140px;
+    margin: auto;
+    
+    }
+    
+    .Partners h1 {
+        padding-top: 7px;
+        text-align: center;
+    }
+     img {
+        max-width: 300px !important;
+        max-height: 350px !important;
+     }
+     .Partners .gallery {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+        margin: 4rem 0;
+        
+     }
+
+     @media screen and (max-width:940px) {
+      .Partners .container {
+          width: 100%;
+          margin: top 30px;
+          
+      }
+  
+  
+  }

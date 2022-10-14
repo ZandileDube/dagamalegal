@@ -1,0 +1,36 @@
+.add-space{
+   margin: 15px;
+}
+
+
+.fronttext{
+   font-size: 14px;
+   position: absolute;
+   top: 50%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   color: #ffffff;
+   text-align:right;
+}
+
+.learn{
+   font-style: italic;
+   font-weight: bold;
+   font-size: 10px;
+   color: #000;
+}
+
+.backtext{
+   font-size: 12px;
+}
+
+@media screen and (max-width:600px) {
+ .Expertise{
+margin-top: 150px;
+   left: 30px;
+ }
+   }
+
+
+
+
