@@ -15,9 +15,7 @@ const Photogallery = () => {
                 <div className='gallery'>
                     <Container>
                         <Row>
-                            {/* <Col>
-                                <img src={galleryphoto1} alt='gallery1' />
-                            </Col> */}
+                           
                             <Col> <img src={dagamaimg} alt='gallery2' /></Col>
                         </Row>
                         <Row>
